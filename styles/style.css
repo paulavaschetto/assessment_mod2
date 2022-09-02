@@ -1,0 +1,22 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body .navbar {
+  background-color: black;
+}
+body .navbar img {
+  height: 30;
+  width: 30;
+}
+body .navbar h1 {
+  font-size: 25px;
+  color: white;
+  margin: auto;
+}
+body .carousel-inner .carousel-item img {
+  height: 70vh;
+}
+
+/*# sourceMappingURL=style.css.map */
