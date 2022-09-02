@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 }
 body .navbar {
-  background-color: black;
+  background-color: green;
 }
 body .navbar img {
   height: 30;
