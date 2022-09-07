@@ -3,7 +3,7 @@ body{
     max-width: 100%;
     overflow-x: hidden;
     .navbar{
-        background-color: green;
+        background-color: rgb(17, 90, 217);
         img{
             height: 30;
             width: 30;
@@ -21,7 +21,24 @@ body{
                 height:70vh;
             }
         }
-    }
-    
-    
+    }  
+        .search-container{
+            position: relative;
+            margin: auto;
+            width: 80%;
+
+        }
+        #search-card{
+         
+            margin-top: 20px;
+        }
+        .form-control{
+  
+        }
+
 }
+
+
+
+
+
