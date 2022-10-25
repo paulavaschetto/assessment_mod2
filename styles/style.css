@@ -3,28 +3,50 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-body .navbar {
-  background-color: rgb(17, 90, 217);
+
+.navbar {
+  background-color: #397C10;
 }
-body .navbar img {
+.navbar img {
   height: 30;
   width: 30;
 }
-body .navbar h1 {
+.navbar h1 {
   font-size: 25px;
   color: white;
   margin: auto;
 }
-body .carousel-inner .carousel-item img {
+
+.carousel-inner .carousel-item img {
   height: 70vh;
 }
-body .search-container {
+
+.search-container {
   position: relative;
   margin: auto;
   width: 80%;
 }
-body #search-card {
+
+#search-card {
   margin-top: 20px;
+}
+
+.results-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.results-section .hotel-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: 20px 15px;
+  justify-content: center;
+}
+.results-section .hotel-card img {
+  width: 30vw;
+  object-fit: cover;
+  max-height: fit-content;
 }
 
 /*# sourceMappingURL=style.css.map */
